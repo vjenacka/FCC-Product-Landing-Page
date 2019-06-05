@@ -1,1 +1,46 @@
 @import 'reset';
+@import 'variables';
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    padding: 0 25px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    transition: background-color 0.4s ease-out;
+
+    .logo{
+        width: 30%;
+
+        img{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+}
+.scroll{
+    background-color: grey;
+    color: blue;
+}
+
+#nav-bar{
+    width: 30%;
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+
+        li{
+            margin-top: 25px;
+        }
+    }
+    
+}
+
+#form-section{
+    margin-top: 20vh;
+    color: blue;
+}
